@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "NoAutoDisableLPM (postinst): Killing powerd"
+sudo killall -9 powerd
+exit 0

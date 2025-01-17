@@ -2,8 +2,8 @@ Package: com.joshuaseltzer.noautodisablelpm
 Name: NoAutoDisableLPM
 Version: 1.0.0
 Architecture: iphoneos-arm
-Description: Prevents the system from automatically disabling Low Power Mode when the battery reaches 80%. Supports iOS 15. Research and investigation credit goes to @Poomsmart.
+Description: Prevents the system from automatically disabling Low Power Mode when the battery reaches 80%. Tested on iOS 15 (should work up to at least iOS 17). Research and investigation credit goes to @PoomSmart.
 Maintainer: Joshua Seltzer <joshua.seltzer90@gmail.com>
 Author: Joshua Seltzer <joshua.seltzer90@gmail.com>
 Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=15.0)
